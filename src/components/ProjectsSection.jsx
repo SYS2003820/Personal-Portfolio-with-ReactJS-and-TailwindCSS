@@ -3,33 +3,33 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "AI Chatbot with NLP",
-    description:
-      "An intelligent chatbot built using NLP and deep learning, capable of handling 300+ real-time conversations with a 75% query resolution accuracy.",
-    image: "/projects/chatbot.png", // Replace with actual image path
-    tags: ["Python", "Flask", "NLP", "MongoDB"],
-    demoUrl: "#", // Add hosted link if available
-    githubUrl: "https://github.com/SYS2003820/ai-chatbot", // Replace if needed
-  },
-  {
-    id: 2,
     title: "Online Examination Management System",
     description:
       "Secure web-based platform for conducting online exams with real-time monitoring and JWT-based user authentication.",
-    image: "/projects/exam.png", // Replace with actual image path
-    tags: ["MERN Stack", "Docker", "Node.js", "React"],
+    image: "/Projects/project1.png", // Replace with actual image path
+    tags: ["PHP", "MySQL", "JavaScript", "HTML", "CSS"],
     demoUrl: "#", // Add hosted link if available
     githubUrl: "https://github.com/SYS2003820/online-exam-system", // Replace if needed
   },
   {
-    id: 3,
-    title: "Ethereum Voting DApp with Analytics",
+    id: 2,
+    title: "Java Pac-Man Game",
     description:
-      "Blockchain-powered decentralized voting app with real-time analytics dashboard, built using Solidity, Web3, and Chart.js.",
-    image: "/projects/voting.png", // Replace with actual image path
-    tags: ["Solidity", "Web3.js", "React", "Chart.js"],
-    demoUrl: "#", // Add hosted link if deployed
-    githubUrl: "https://github.com/SYS2003820/voting-dapp", // Replace if needed
+      "A classic Pac-Man arcade game clone featuring smooth gameplay, scoring, and ghost AI movement, built with OOP principles.",
+    image: "/Projects/project2.png", // Replace with actual image path
+    tags: ["Java", "Swing", "AWT"],
+    demoUrl: "#", // Add hosted link if available
+    githubUrl: "https://github.com/SYS2003820/Pacman-java-master", // Replace if needed
+  },
+  {
+    id: 3,
+    title: "3D Developer Portfolio Website",
+    description:
+      "A modern animated personal portfolio with 3D effects, motion transitions, and creative showcase of skills and projects.",
+    image: "/Projects/project3.png", // Replace with actual image path
+    tags: ["React", "Three.js", "TailwindCSS", "Framer Motion", "EmailJS"],
+    demoUrl: "#", // Add live deployed link if available
+    githubUrl: "https://github.com/SYS2003820/Portfolio-Vishesh", // Replace if needed
   },
 ];
 

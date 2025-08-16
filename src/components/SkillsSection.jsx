@@ -3,32 +3,40 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
+  { name: "HTML5/CSS3", level: 95, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
   { name: "React", level: 90, category: "frontend" },
   { name: "Tailwind CSS", level: 90, category: "frontend" },
+  { name: "Framer Motion", level: 85, category: "frontend" },
+  { name: "Three.js", level: 80, category: "frontend" },
 
   // Backend
   { name: "Node.js", level: 85, category: "backend" },
   { name: "Express.js", level: 80, category: "backend" },
   { name: "Flask", level: 75, category: "backend" },
-  { name: "MongoDB", level: 75, category: "backend" },
-  { name: "MySQL", level: 70, category: "backend" },
+  { name: "PHP", level: 80, category: "backend" },
+  { name: "MySQL", level: 75, category: "backend" },
+  { name: "MongoDB", level: 70, category: "backend" },
 
-  // Data
+  // Data & Analytics
   { name: "Python", level: 95, category: "data" },
   { name: "Pandas", level: 90, category: "data" },
   { name: "NumPy", level: 85, category: "data" },
   { name: "Matplotlib", level: 80, category: "data" },
   { name: "Seaborn", level: 75, category: "data" },
-  { name: "EDA & Data Visualization", level: 85, category: "data" },
+  { name: "Data Analytics", level: 85, category: "data" },
+  { name: "Google Analytics", level: 80, category: "data" },
+  { name: "Looker Studio", level: 80, category: "data" },
+  { name: "BigQuery", level: 75, category: "data" },
 
-  // Tools
+  // Tools & Platforms
   { name: "Git & GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
   { name: "Figma", level: 85, category: "tools" },
+  { name: "Docker", level: 70, category: "tools" },
   { name: "AWS (Basics)", level: 65, category: "tools" },
+  { name: "Oracle Cloud", level: 70, category: "tools" },
+  { name: "EmailJS", level: 80, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "data", "tools"];
